@@ -12,7 +12,7 @@ const data = [
 export default function SimulationDashboard() {
   return (
     <div className="p-6 bg-gray-900 text-white rounded-xl shadow-lg border border-gray-700">
-      <h2 className="text-2xl font-bold mb-4">Planetary Healing Simulation</h2>
+      <h2 className="text-2xl font-bold mb-4">Command 04: 11D Multiverse Manifold Scaling</h2>
       <div className="h-64">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data}>

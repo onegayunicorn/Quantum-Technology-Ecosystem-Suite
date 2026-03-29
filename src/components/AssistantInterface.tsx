@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { MessageSquare, Send } from 'lucide-react';
 
 export default function AssistantInterface() {
-  const [messages, setMessages] = useState([{ role: 'assistant', text: 'Master Orchestrator online. Awaiting commands.' }]);
+  const [messages, setMessages] = useState([
+    { role: 'assistant', text: 'Master Orchestrator online. Command 03 verified.' },
+    { role: 'assistant', text: 'Directive received: Initiating Command 04 - Scaling to 11D Multiverse Manifold.' }
+  ]);
   const [input, setInput] = useState('');
 
   return (
